@@ -1,0 +1,64 @@
+body {
+
+    color: rgb(82, 22, 18);
+    background: rgb(75, 75, 75);
+    margin: 0px;
+    font-family: "Irish Grover", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.chamada {
+    background:rgb(119, 117, 117);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 35px;
+}
+
+img {
+    height: 150px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 1.0;
+    height: 200px;
+}
+
+.categoria- img:hover {
+    opacity: 3.0;
+    border: 1px solid rgb(82, 22, 18);
+}
+
+.categoria h2 {
+    color: rgb(82, 22, 18);
+}
